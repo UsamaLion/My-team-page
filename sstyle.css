@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+nav h1 {
+    /* give me cartoon font */
+    font-family: 'Cartoon Face', cursive;
+    font-weight: 700;
+    font-size: 32px;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* how to increase distance between each image */
+.images img {
+    margin: 20px;
+}
+.images img:hover {
+    transform: scale(1.1);
+}
