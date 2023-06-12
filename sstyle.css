@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
+    font-family: 'Cartoon Face', cursive;
 }
 nav {
     display: flex;
@@ -26,4 +27,21 @@ nav h1 {
 }
 .images img:hover {
     transform: scale(1.1);
+}
+/*create media query for 300px*/
+@media (max-width: 786px) {
+    nav {
+        flex-direction: column;
+    }
+    nav h1 {
+        text-align: center;
+    }
+    .images {
+        flex-direction: row;
+    }
+    .images img {
+        margin: 10px;
+        width: 100px;
+    }
+
 }
